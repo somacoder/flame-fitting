@@ -8,4 +8,3 @@ dependencies:
     - opencv-python==4.4.0.46
     - Cython==0.29.21
     - werkzeug==1.0.1
-    - git+https://gitlab.com/libeigen/eigen.git
