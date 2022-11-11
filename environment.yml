@@ -3,6 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.9
+  - eigen
   - pip:
     - chumpy==0.70
     - opencv-python==4.4.0.46
