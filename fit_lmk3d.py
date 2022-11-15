@@ -129,7 +129,7 @@ def run_fitting():
     print("loaded 3d landmark from:", lmk_path)
 
     # model
-    model_path = './models/generic_model.pkl' # change to 'female_model.pkl' or 'male_model.pkl', if gender is known
+    model_path = './models/male_model.pkl' # change to 'female_model.pkl' or 'male_model.pkl', if gender is known
     model = load_model(model_path)       # the loaded model object is a 'chumpy' object, check https://github.com/mattloper/chumpy for details
     print("loaded model from:", model_path)
 
