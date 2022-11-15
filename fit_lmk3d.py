@@ -120,7 +120,7 @@ def fit_lmk3d( lmk_3d,                      # input landmark 3d
 
 def run_fitting():
     # input landmarks
-    lmk_path = './data/scan_lmks.npy'
+    lmk_path = '../3DDFA_V2/examples/results/bob_2d_sparse.jpg.npy'
     # measurement unit of landmarks ['m', 'cm', 'mm']
     unit = 'm' 
 
