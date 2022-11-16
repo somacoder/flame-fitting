@@ -10,7 +10,7 @@ dependencies:
     - opencv-python
     - Cython
     - werkzeug
-    - # additional for internal mesh build
+    # additional for internal mesh build
     - numpy
     - setuptools
     - matplotlib
