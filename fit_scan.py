@@ -171,10 +171,10 @@ def fit_scan(  scan,                        # input scan
 
 def run_fitting():
     # input scan
-    scan_path = './data/scan.obj'
+    scan_path = '../3DDFA_V2/examples/results/bob_obj.obj'
 
     # landmarks of the scan
-    scan_lmk_path = './data/scan_lmks.npy'
+    scan_lmk_path = '../3DDFA_V2/examples/results/bob_2d_sparse.jpg.npy'
 
     # measurement unit of landmarks ['m', 'cm', 'mm', 'NA'] 
     # When using option 'NA', the scale of the scan will be estimated by rigidly aligning model and scan landmarks
@@ -187,7 +187,7 @@ def run_fitting():
     print("loaded scan landmark from:", scan_lmk_path)
 
     # model
-    model_path = './models/generic_model.pkl' # change to 'female_model.pkl' or 'male_model.pkl', if gender is known
+    model_path = './models/male_model.pkl' # change to 'female_model.pkl' or 'male_model.pkl', if gender is known
     model = load_model(model_path)       # the loaded model object is a 'chumpy' object, check https://github.com/mattloper/chumpy for details
     print("loaded model from:", model_path)
 
