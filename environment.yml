@@ -6,7 +6,16 @@ dependencies:
   - pip
   - eigen
   - pip:
-    - chumpy==0.70
-    - opencv-python==4.4.0.46
-    - Cython==0.29.21
-    - werkzeug==1.0.1
+    - chumpy
+    - opencv-python
+    - Cython
+    - werkzeug
+    - # additional for internal mesh build
+    - numpy
+    - setuptools
+    - matplotlib
+    - scipy
+    - pyopengl
+    - pillow
+    - pyzmq
+    - pyyaml
